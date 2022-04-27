@@ -1,0 +1,19 @@
+VAR
+	gAxis02_HW : SdcHwCfg_typ := (0);
+	gAxis01_HW : SdcHwCfg_typ := (0);
+	gAxis02_DrvIf : SdcDrvIf16_typ := (0);
+	gAxis01_DrvIf : SdcDrvIf16_typ := (0);
+	gAxis02_DiDoIf : SdcDiDoIf_typ := (0);
+	gAxis01_DiDoIf : SdcDiDoIf_typ := (0);
+	EVIRD : DRIVE;
+	led4 : BOOL;
+	led3 : BOOL;
+	led2 : BOOL;
+	led1 : BOOL;
+	gAxis02_ModuleOk : BOOL := 0;
+	gAxis01_ModuleOk : BOOL := 0;
+	gAxis02 : ACP10AXIS_typ;
+	gAxis01 : ACP10AXIS_typ;
+	i : INT := 0;
+	active_deactive_taming : BOOL;
+END_VAR

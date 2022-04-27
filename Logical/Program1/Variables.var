@@ -1,0 +1,5 @@
+VAR
+	LED : ARRAY[0..3] OF BOOL;
+	ACTIV : INT := 0;
+	i : INT := 0;
+END_VAR
